@@ -85,7 +85,7 @@ export default function Page() {
       <div className="w-full max-w-md mx-auto flex-1 flex flex-col p-4 bg-white rounded-lg shadow">
         <h1 className="text-xl font-bold text-center">{formattedDate}</h1>
         <h1 className="text-2xl font-bold text-center mb-6">유타워 한식뷔페 메뉴</h1>
-        <p className="text-sm text-center text-gray-400 mb-6">* 메뉴는 매일 오전 11시 05분 경 업데이트 됩니다.</p>
+        <p className="text-sm text-center text-gray-400 mb-6">* 메뉴는 매일 오전 10시 50분 ~ 11시 30분에 업데이트 됩니다.</p>
 
         {/* Container for horizontal layout */}
         <div className="flex flex-row space-x-4 overflow-x-auto">
