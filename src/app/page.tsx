@@ -48,9 +48,9 @@ export default function Page() {
   // Fetch data on the client side
   useEffect(() => {
     async function fetchData() {
-      const dev = "http://localhost:3001";
-      //   const prod = "https://whattoeattoday-server.vercel.app";
-      const res = await fetch(`${dev}/api/menu`);
+      //   const dev = "http://localhost:3001";
+      const prod = "https://whattoeattoday-server.vercel.app";
+      const res = await fetch(`${prod}/api/menu`);
       const data = await res.json();
       const menus: MenuItem[] | undefined | null = data.data;
       if (menus) {
